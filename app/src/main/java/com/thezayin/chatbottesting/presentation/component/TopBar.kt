@@ -1,6 +1,7 @@
 package com.thezayin.chatbottesting.presentation.component
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxHeight
@@ -19,9 +20,10 @@ import androidx.compose.ui.unit.sp
 import com.thezayin.chatbottesting.R
 
 @Composable
-fun TopBar(title:String, callBack: () -> Unit){
+fun TopBar(modifier: Modifier, title: String, callBack: () -> Unit) {
     Box(
-        modifier = Modifier
+        modifier = modifier
+            .background(colorResource(id = R.color.white))
             .fillMaxWidth()
             .padding(20.dp)
     ) {

@@ -15,7 +15,7 @@
     <color name="text_color">#FF000000</color>
     <color name="grey">#777777</color>
     <color name="icon_bg">#F4F2FD</color>
-    <color name="ed_background">#F5F5F5</color>
+    <color name="ed_background">#F2F4F5</color>
     <color name="red">#E62E2E</color>
     <color name="light_yellow">#E9C16E</color>
     <color name="light_yellow_level_1">#F6D9A5</color>

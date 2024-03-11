@@ -43,6 +43,7 @@ fun MessageBody(message: Message) {
                 bottomEnd = if (message.sender.equals("bot")) 24.dp else 0.dp,
                 bottomStart = 24.dp,
             ),
+            elevation = CardDefaults.cardElevation(1.dp)
         ) {
             Box(
                 modifier = Modifier, contentAlignment = Alignment.Center
